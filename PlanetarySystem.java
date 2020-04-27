@@ -26,7 +26,7 @@ public class PlanetarySystem extends ArrayList<AstronomicalBody> {
 
             if (star == null) {
                 super.add(ab);
-                star = (Star) star;
+                star = (Star) ab;
                 return true;
             } else {
                 return false;
